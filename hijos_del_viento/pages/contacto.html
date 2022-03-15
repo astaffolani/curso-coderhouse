@@ -1,19 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contacto</title>
 </head>
 <body>
     <header>
-        <h1>
-            Hijos del viento
-        </h1>
+        <h1>Hijos del Viento</h1>
         <img src="../img/Logo_HDV.jpg" width="300" height="300" alt="hijos del viento">
     </header>
-    
+     <!--menu-->
     <nav>
         <ul>
             <li>                                        
@@ -31,57 +29,30 @@
                 
         </ul>
     </nav>
-
-    <form action="">
+<main>
+    <form action="mailto:adrian@staffolani.com.ar" method="post" enctype="text/plain">
         <fieldset>
-            <legend>
-                formulario de contacto
-            </legend>
+            <legend>Formulario de Contacto</legend>
             <div>
-                <label for="completa tu nombre">completa tu nombre</label>
-    <input type="text" name="nombre" placeholder="aca va tu nombre">
-    
-                
+         <label for="completa tu nombre">completa tu nombre</label>
+         <input type="text" name="nombre" placeholder="aca va tu nombre">
             </div>
             <div>
         <label for="completa tu mail">completa tu mail</label>
-    <input type="email" name="nombre" placeholder="aca va tu nombre">
-            
-                
-            </div>
-            <div>
-                <label for="pais">seleccion tu pais</label>
-    <select name="pais" id="">
-        <option value="argentina">argentina</option>
-        <option value="chile">chile</option>
-        <option value="peru">peru</option>
-    </select>
-    
-    
-        
-    
-    <div>
-        <label for="genero">elige tu genero</label>
-    <br>
-        <input type="radio" name="genero" value="hombre">hombre<br>
-        <input type="radio" name="genero" value="mujer">mujer<br>
-        
-        
-    
-        
-    </div>
-                
-            
-            <div>
+        <input type="email" name="mail" placeholder="aca va tu mail">
+           </div>
+         <div>
+            <label for="msg">Mensaje:</label>
+            <textarea id="msg" name="Mensaje del usuario"></textarea>
+         </div>
+           <div>
                 <input type="submit" value="enviar">
                 <input type="reset" value="borrar">
-            </div>
-        </fieldset>
-    
-     
-    </form>
-
-    <footer>
+           </div>
+  </fieldset>
+  </form>
+  <br>
+   <footer>
 
         Hijos del viento - todos los derechos reservados @ 2022
     </footer>
