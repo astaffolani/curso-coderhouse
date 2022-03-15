@@ -8,11 +8,14 @@ p{
 color:rgb(226, 43, 89);
 }
 */
-body {
-    background-color: #73C6B6 ;
-    
-}
+
 /*selectores*/
+body{
+    
+    background-color: bisque;
+
+}
+
 h1 {
     font-size: 2rem;
     text-align: center;
@@ -27,7 +30,7 @@ h1 {
 /*clases*/
 .colorP{
     color:brown;
-    background-color: purple;
+    background-color: rgb(236, 227, 236);
 }
 
 /* a la hora de escribir class, id y nombres de archivos: usar camelCase
@@ -49,18 +52,11 @@ font-family: 'Smooch Sans', sans-serif;
 }
 main a{
     text-decoration: none;
-    color: black;
+    color: rgb(32, 177, 169);
 }
 header{
-    background-color: black;
+    background-color: rgb(188, 211, 157);
     
 }
 
 
-body{
-    background-image: url('../img/chicos.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size:cover;
-
-}

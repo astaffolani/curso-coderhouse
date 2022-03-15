@@ -1,0 +1,53 @@
+/*aplicamos reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*propiedades de BOX Model
+
+Contenido=texto o multimedia
+
+relleno=espacio interno entre el contenido y el borde de la caja
+
+margen=espacio interno engtre el contenido y el borde de la caja (etiquetas) y las demas...
+*/
+
+/*propiedad del borde)*/
+h2{
+    background-color: rgb(233, 217, 227);
+    text-align: center;
+    padding: 50px 30px;
+    margin: 10px 40px ;
+border: 6px solid black;
+border-style: dashed;
+border-radius: 40px;
+border-color: rgb(223, 209, 23);
+
+}
+
+
+
+
+.noticias__subtitulo--red{
+    color: rgb(69, 73, 4);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.noticia__titulo{
+    color: brown;
+}
+
+
+a{
+    background-color: aquamarine;
+}
+
+.caja{
+    margin-top: 10px;
+background-color: rgb(161, 185, 185);
+color: darkgreen;
+width: 300px;
+    height: 50px ;
+    overflow: auto;
+}
