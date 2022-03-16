@@ -51,3 +51,38 @@ width: 300px;
     height: 50px ;
     overflow: auto;
 }
+.menu{
+  
+   position:sticky;
+   top: 0px;
+
+}
+.menu .none{
+    display:none;
+}
+
+.itemRelative{
+    position: relative;
+    top: 30px;
+    left: 30px;
+
+}
+
+.abolute{
+
+
+}
+ .itemAbsolute{
+
+    position: absolute;
+    top: 30px;
+left: 30px;
+
+}
+.itemFixed{
+    position: fixed;
+    bottom: 100px;
+    right: 0px;
+
+}
+
