@@ -68,7 +68,14 @@ width: 300px;
 
 }
 
-.abolute{
+.itemFixed{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    } 
+
+
+
 
 
 }
