@@ -15,11 +15,11 @@ margen=espacio interno engtre el contenido y el borde de la caja (etiquetas) y l
 
 /*propiedad del borde)*/
 h2{
-    background-color: rgb(233, 217, 227);
+    background-color: rgb(141, 197, 36);
     text-align: center;
     padding: 50px 30px;
     margin: 10px 40px ;
-border: 6px solid black;
+border: 100px solid black;
 border-style: dashed;
 border-radius: 40px;
 border-color: rgb(223, 209, 23);
