@@ -1,0 +1,49 @@
+Hola Adrián,
+
+
+
+No hay problema, escribime por lo que necesites, estoy para eso :)
+
+
+
+Increíble el proyecto que me envías, cumple con todo lo que se requería para este desafío.
+
+-Asignaste color a títulos, párrafos y listas mediante clases y etiquetas de una manera super completa.
+
+-Usaste una manera consistente para nombrar a tus clases.
+
+-Incluiste background y propiedades de box modeling.
+
+-Linkeaste tu archivo css a todos tus html.
+
+
+
+Algunas correcciones:
+
+-Intentá no aplicar propiedades de css dentro del html, lo ideal siempre es aplicar una clase al elemento que queremos modificar, llamarla desde css y darle esas propiedades (por ejemplo en el logo, dale una clase directamente a la imagen para pasarle el tamaño por css externo)
+
+
+
+-Increible como comentaste tu código html, ahora faltaría el css. Lo ideal acá es ir marcando a que contenedores del html aplican los bloques de código para ubicarte rápidamente dentro de tu archivo css. 
+
+Primero es importante ponerlos por orden de aparición, entonces primero pones los estilos que aplican de manera global al proyecto, luego los del menú, después el index,... ultimo el footer. Y en cada pedazo vas comentando, menú, index, formulario contacto, footer, etc.
+
+
+
+-Cuuidado que en el css tenés, en la línea 13 dos * que te están tirando error!!
+
+
+
+-Intentá no usar ids a menos que sea estrictamente necesario. El que incluiste(#Logo) tranquilamente puede ser una clase
+
+
+
+Eso es todo, te felicito un montón, hiciste un excelente trabajo, seguí así!
+
+Cualquier cosa escribime por el chat de coder, saludos!
+
+
+
+Agus
+
+
