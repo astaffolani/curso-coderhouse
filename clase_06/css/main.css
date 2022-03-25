@@ -1,0 +1,80 @@
+.padre{
+/*padding: 10%;
+margin: 10%;*/
+height: 600px;
+    display:grid;
+    
+    /*maximo 12 columnas*/
+    /*pixeles o porcentajes*/
+/*fracciones fr*/
+
+grid-template-columns: repeat(4, 1fr);
+    grid-template-rows:auto;
+    /*gap: 10px;*/
+    column-gap: 10px;
+    row-gap: 10px;
+    justify-items: center;
+}
+
+.hijoUno{
+background-color: red;
+}
+
+.hijoDos{
+background-color: green;
+}
+
+.hijoTres{
+background-color: blue;
+}
+
+.hijoCuatro{
+background-color: yellow;
+}
+
+.hijoCinco{
+background-color: rgb(247, 0, 255);
+}
+
+    
+.hijoSeis{
+background-color: orange;
+}
+
+.hijoSiete{
+background-color: rgb(247, 0, 255);
+}
+                    
+.hijoOcho{
+background-color: orange;
+}
+/*ejemplo 2 imagenes*/
+
+.ejemplo{
+    height: 400px;
+    background-color: antiquewhite;
+margin-top: 100px;
+    display:grid;
+    
+    /*maximo 12 columnas*/
+    /*pixeles o porcentajes*/
+/*fracciones fr*/
+
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto ;
+    /*justify-content*/
+    justify-items: center;/*start center end stretch*/
+    align-items: end;
+
+    column-gap: 10px;
+    row-gap: 30px;
+
+}
+
+.imagen-1{
+    justify-self: center;
+    align-self: center;
+
+
+
+}
