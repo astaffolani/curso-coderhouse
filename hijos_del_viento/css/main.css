@@ -36,13 +36,13 @@ header{
 
 body{
     
-        background-color:aliceblue;
-        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-     }
+    background-color:aliceblue;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
      
-     h1 {
-         font-size: 2rem;
-         text-align:left;
+h1 {
+    font-size: 2rem;
+    text-align:left;
          color:#BB9981;
      }
      h2 {
@@ -54,44 +54,51 @@ body{
          color:darkkhaki;
      }
      
-     header nav ul{
+header nav ul{
      
          list-style: none;
      
-     }
+}
      
-     a{
-         text-decoration: none;
-         color:cadetblue;
+a{
+    text-decoration: none;
+    color:rgb(116, 157, 158);
+    margin: 0 5px;
+    padding: 5px 8px;
+    border-radius: 8px 8px 0 0;
+    background-color: #bdc5c7;
+    text-decoration: none;
 }
 
 nav{
-    text-align:center;
+    display: flex;
+    border-bottom: 1px solid #ccc;
    }
- 
- nav ul{
+
+nav ul{
      display:inline-block;
  
-  }
+}
  
-  nav ul li{
+nav ul li{
       float: left;
       color: white;
       font-weight: bold;
       text-decoration: none;
       font-size: 20px;
       padding: 10px;
-  }
+      transform: scale(1.1);
+}
  
-  nav ul li a:hover{
+nav ul li a:hover{
      background-color:rgb(185, 228, 228);
-   }
+}
  
    .armonia{
        color:#EC7063;
        
    }
-}
+
 
 
 
