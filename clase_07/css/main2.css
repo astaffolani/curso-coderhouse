@@ -3,6 +3,7 @@
     margin: 0;
 
 }
+import 'animate.css';
 
 body{
     
@@ -20,24 +21,48 @@ justify-content: center;
 }
 
 nav ul li{
-    list-style: none;
+list-style: none;
 margin: 0.5rem;
 padding: 0.3rem;
 background-color: whitesmoke;
 border-radius: 1rem;
 }
 
-img:hover{
-    transform: scale(1.3);
-}
+
 nav ul li:hover{
-    background-color: rgb(235, 214, 228);
+    background-color: rgb(189, 166, 181);
     transform: scale(1.1);
+
    /* transform: rotate(180deg);
     transform: translate(10px,20px);
 */
+
 box-shadow: 2px 3px black;
 }
+
+img:hover{
+    transform: scale(1.);
+}
+
+.imgLuna{
+    
+    animation-name: girar;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+    }
+    
+    
+    @keyframes girar{
+    from{
+    transform: rotate(0);
+    }
+    
+    to{
+    transform: rotate(360deg);
+    }
+    } 
+
+
 
 .mainNosotros{
     height: 80vh;
