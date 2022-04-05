@@ -1,0 +1,14 @@
+.contenedor{
+  
+    background-color: aliceblue;
+    color: brown;
+    display:flex;
+flex-direction:row;
+flex-wrap:wrap;
+justify-content:flex-start;
+}
+
+
+    .elemento{
+    width:25%;
+    }
