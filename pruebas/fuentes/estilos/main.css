@@ -7,13 +7,7 @@ h1 {
   font-family:inherit;
   font-size: 60px;
   text-align: center;
-  color: red;
-  font-family: 'Courier New', Courier, monospace;
-  margin:12px;´
-  padding: 20px;
-  
-
-
+  color: aliceblue;
 }
 
 p, li {
@@ -21,4 +15,7 @@ p, li {
   font-size: 16px;
   line-height: 2;
   letter-spacing: 1px;
+}
+.code{
+  color: blanchedalmond;
 }

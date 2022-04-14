@@ -1,0 +1,87 @@
+Hola Adrián,
+
+
+
+Gracias por entregar la primera pre-entrega del proyecto final, la primer instancia de corrección integral para que llegues con un trabajo increíble a la entrega final del proyecto!
+
+No hay nada que disculpar, lamento mucho que lo sientas así, pero veo que venís haciendo un muy buen trabajo, siempre hay cositas para mejorar pero ya creaste una buena base sobre la cual seguir trabajando en lo que queda del curso, no te desanimes!
+
+
+
+A continuación paso a detallar los aspectos que cumple tu proyecto:
+
+-Generaste los wireframes de todos tus páginas html, organizando los elementos que van a estar en tu sitio, mostrando las diferentes secciones y agregando una cantidad de contenido adecuado para cada página. Además adaptaste cada una de esas pantallas a su versión mobile.
+
+-Empezaste a maquetar tu sitio, haciendo buen uso de las etiquetas semánticas para generar una estructura, y ya empezaste a llenar esa estructura con un montón de contenido!
+
+-Usaste correctamente las tabulaciones para marcar jerarquía y darle legibilidad a tu código. También empezaste a incluir comentarios para ese mismo propósito.
+
+-Creaste un menú de navegación funcional, haciendo posible que el usuario vaya de una página a otra con facilidad.
+
+-Generaste un archivo .css y lo linkeaste correctamente a todos los archivos .html para comenzar a darle los estilos a tu sitio.
+
+-Implementaste clases y etiquetas para asignarle estilos a tu sitio.
+
+-Además, tu proyecto tiene una óptima organización de carpetas, de a cuerdo con los estándares actuales.
+
+
+
+
+
+Te dejo algunas correcciones y cositas para que vayas sumando:
+
+-Los wireframes que me envias están bien, todavía les falta un poco de formato de sitio web pero considero que tienen los elementos básicos que deberían tener, además de que distinguiste claramente dos formatos diferentes y organizaste el contenido con relación a eso.
+
+
+
+-Lo de los comentarios en el código veo que ya casi lo tenés, es solo cuestión de sentarse a terminar de hacerlo. Te recomiendo que te bajes alguna extensión de VSCode como "Prettier" que te acomoda la indentación del código automáticamente.
+
+
+
+-En el css salta un error, en la línea 94 tenés un cierre de } solo.
+
+
+
+-Acordate que no es una buena práctica dejar líneas vacías dento de un contenedor en html, podes dejar una línea vacía entre contenedores para dar un poco de aire solamente.
+
+
+
+-El tema de la calidad de las imágenes es clave en cualquier sitio actualmente, ya que estas definen mucho la calidad final de nuestros sitios (además de que en la entrega final se descuenta puntaje si las fotos no están en alta calidad) Te dejo algunos bancos de fotos gratuitos para que saques material de ahi:
+
+https://unsplash.com/
+
+https://www.freepik.com/home
+
+
+
+-Andá agregando y completando el atributo alt a las imágenes para sumarle accesibilidad a tu sitio.
+
+
+
+-No encuentro muy necesario que en el index tengas tres etiquetas para envolver el contenido principal de esa página (fijate que tenes main-section-article). Lo ideal sería que dejes solo el main, y que uses otro contenedor para envolver al titulo y los p, por ejemplo asi:
+
+    <main>
+        <section>
+            <h2>¿Qué ofrecemos?</h2>
+        ...
+        </section>
+        <div class="galeria">
+        ...
+        </div>
+    </main>
+
+
+
+
+Eso es todo, parece un montón pero realmente la mayoría son detalles, venís haciendo un trabajo excelente, la nota que te corresponde es un "óptimo", te felicito!! 
+
+
+
+Cualquier cosa escribime por el chat de coder,
+
+saludos!
+
+
+
+Agus
+

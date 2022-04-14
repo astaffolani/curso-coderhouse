@@ -1,14 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
 	<meta charset="utf-8">
     <title>Mi pagina de prueba</title>
+	<meta name="author" content="Adrian Staffolani - @astaffolani">
 	<link href="estilos/main.css" rel="stylesheet" type="text/css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
+	
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Hurricane&display=swap" rel="stylesheet">
 </head>
 <body>
+	
 	<main>
 		<article>
 			<h1>Hola soy Bauti</h1>
@@ -16,20 +19,108 @@
 
 <h3>Mi subtítulo</h3>
 <h4>Mi sub-subtítulo</h4>
+<figure>
+	<figcaption>The top 10 movies of all time</figcaption>
+	<ol>
+	 <li value="10"><cite>Josie and the Pussycats</cite>, 2001</li>
+	 <li value="9"><cite lang="sh">Црна мачка, бели мачор</cite>, 1998</li>
+	 <li value="8"><cite>A Bug's Life</cite>, 1998</li>
+	 <li value="7"><cite>Toy Story</cite>, 1995</li>
+	 <li value="6"><cite>Monsters, Inc</cite>, 2001</li>
+	 <li value="5"><cite>Cars</cite>, 2006</li>
+	 <li value="4"><cite>Toy Story 2</cite>, 1999</li>
+	 <li value="3"><cite>Finding Nemo</cite>, 2003</li>
+	 <li value="2"><cite>The Incredibles</cite>, 2004</li>
+	 <li value="1"><cite>Ratatouille</cite>, 2007</li>
+	</ol>
+   </figure>
+   <br>
+   <figure>
+	<figcaption>The top 10 movies of all time</figcaption>
+	<ol reversed>
+	 <li><cite>Josie and the Pussycats</cite>, 2001</li>
+	 <li><cite lang="sh">Црна мачка, бели мачор</cite>, 1998</li>
+	 <li><cite>A Bug's Life</cite>, 1998</li>
+	 <li><cite>Toy Story</cite>, 1995</li>
+	 <li><cite>Monsters, Inc</cite>, 2001</li>
+	 <li><cite>Cars</cite>, 2006</li>
+	 <li><cite>Toy Story 2</cite>, 1999</li>
+	 <li><cite>Finding Nemo</cite>, 2003</li>
+	 <li><cite>The Incredibles</cite>, 2004</li>
+	 <li><cite>Ratatouille</cite>, 2007</li>
+	</ol>
+   </figure>
+   <dl>
+	<dt> Authors
+	<dd> John
+	<dd> Luke
+	<dt> Editor
+	<dd> Frank
+   </dl>
+   <dl>
+	<dt lang="en-US"> <dfn>color</dfn> </dt>
+	<dt lang="en-GB"> <dfn>colour</dfn> </dt>
+	<dd> A sensation which (in humans) derives from the ability of
+	the fine structure of the eye to distinguish three differently
+	filtered analyses of a view. </dd>
+   </dl>
+   <dl>
+	<dt> Last modified time </dt>
+	<dd> 2004-12-23T23:33Z </dd>
+	<dt> Recommended update interval </dt>
+	<dd> 60s </dd>
+	<dt> Authors </dt>
+	<dt> Editors </dt>
+	<dd> Robert Rothman </dd>
+	<dd> Daniel Jackson </dd>
+   </dl>
+   <h1 style="background-color:tomato;">This is a heading</h1>
+   <p style="background-color:orange;">This is a paragraph.</p>
+   <br>
+   <h1 style="color:Tomato;">Hello World</h1>
+<p style="color:DodgerBlue;">Lorem ipsum...</p>
+<p style="color:MediumSeaGreen;">Ut wisi enim...</p>
+   <p>Two <abbr title="Working Groups">WGs</abbr> worked on
+	this specification: the <abbr>WHATWG</abbr> and the
+	<abbr>HTMLWG</abbr>.</p>
+<p>hola, <em>esto es en cursiva</em></p>
+<h1><strong>Flowers, Bees, and Honey</strong> and other things I don't understand</h1>
 
 			<p>Mi gato es <strong>muy</strong> gruñon.</p>
 			<pre><code>hola</code></pre>
 
 			<pre>
-				<code>
-					<?php
+				<code class="code">
+					&lt;php
 					if (a = b){
 						echo "Usar la etiqueta code mola";
 					}
-					?>
+					?&gt;
 				</code>
 				</pre>
+				<pre>
+					<code>
+						&lt;ul&gt;
+					&lt;li&gt;Item 1 &lt;b&gt;Se muestra el código&lt;/b&gt;&lt;/li&gt;
+					&lt;li&gt;Item 2 &lt;i&gt;HTML como código&lt;/i&gt;&lt;/li&gt;
+					&lt;li&gt;Item 3&lt;/li&gt;
+				  &lt;/ul&gt;
+				</code>
+			</pre>
+
+				  <pre>
+					<!-- Un poco de codigo CSS -->
+<pre>
+	body{
+	  color:  red;
+	}
+	a   {
+	  color:green;
+	}
+	</pre>
 		</article>
 	</main>
+
+
 </body>
 </html>
